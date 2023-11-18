@@ -1,0 +1,55 @@
+--- 
+title: "Applied Data Science for Epidemiology and Environmental Justice (and Beyond)"
+subtitle: "The EQUIS Lab Handbook"
+author: "David J.X. González, PhD"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# Introduction
+
+## Purpose of this Handbook
+
+Learning to do environmental health research is challenging enough. You need to frame a good research question, design a sound study, carry out the work, and communicate your findings, often in collaboration with colleagues near and far. To be successful, it helps to have a consistent and systematic approach to managing the various inputs and outputs across multiple projects. Of course, it takes time to develop your approach, and since the data science tools we use are constantly evolving, it helps to be adaptable.
+
+It's okay if you feel daunted. But you don't have to figure all of this out on your own.
+
+That's why I wrote this Handbook. It's intended as a start-up guide for new (and established!) researchers in the [EQUIS Lab](https://equislab.publichealth.berkeley.edu/) conducting applied data science work for environmental epidemiology and environmental justice, based on an approach I've honed through my own training and work in the environmental health sciences. I hope it will be helpful for applied data scientists in other settings, too.
+
+In this Handbook, I provide a systematic approach to dealing with common issues and decision points so  you can focus on your research. I walk through the cycle of an applied data science project, from conception to publication, using examples from my own published work. 
+
+There is not one right way to do this work. Here, I simply offer an approach that has worked for me. This is a work-in-progress and I welcome constructive feedback on ways to improve these recommendations and to make it accessible for new researchers. Also, please keep in mind that this Handbook is subject to change as new data science tools emerge.
+
+## How to use this Handbook
+
+I've organized the handbook to follow the workflow of a typical data science project. These stages are:
+
+* **Iterative Study Design**
+* **Primary Research**
+* **Internal Review and Revisions**
+* **Submission and Peer Review**
+* **Publication and Outreach**
+
+Use the links on the left to jump to the section of the Handbook describing each stage, the tools I recommend using, tips on staying organized, and processes and norms you should keep in mind.
+
+I recommend reading through the full Handbook before you get started with your project, so you can get a sense of the whole picture and what you can be planning ahead for. Then, during the course your research, you can refer to the specific stage that you're at.
+
+Throughout the Handbook, I use example code and data from our study, 'Quantifying the intersecting threats of wildfire and oil and gas development in the western United States,' currently under review. All code and publicly available data utilized in our analysis will be made available via [Zenodo](https://doi.org/10.5281/zenodo.8222874) and [Dryad](https://datadryad.org/stash/share/AiCy6UXwqaHutn0egT8ldRkqMNjo2EeWvazIUR7xuOY), respectively. You can also refer to the [GitHub repo](https://github.com/djxgonzalez/us-wildfire-ogd) for code from this project. 
+
+## Inspiration
+
+As with all scientific efforts, in writing this Handbook I'm standing on the shoulders of some talented colleagues. Rather than a solo invention, the strategies discussed here are an amalgam of others' work and my own iterative process of using data science in my research. Particularly influential for me were Hadley Wickam's *[R for Data Science](https://r4ds.hadley.nz/)* and Steve Luby and Dorothy Southern's *[The Pathway to Publishing: A Guide to Quantitative Writing in the Health Sciences](https://doi.org/10.1007/978-3-030-98175-4)*. As many of us do, I've also learned from the generous advice-givers on Stack Overflow and similar forums.
+
+## About the author
+
+I’m an [Assistant Professor](https://publichealth.berkeley.edu/people/david-gonzalez/) of Environmental Health Sciences at the UC Berkeley School of Public Health and the Principal Investigator of the [EQUIS Lab](https://equislab.publichealth.berkeley.edu/). I have interdisciplinary training as an epidemiologist and environmental scientist, which I apply to investigate the environmental and public health impacts of extractive industries and climate-driven disasters. My research centers environmental justice and health disparities, with the aim of informing evidence-based interventions to improve health and address persistent inequities. Recently, I have focused on the health impacts of oil and gas development and wildfire smoke, using population-level data and community-engaged methods. You can learn more about work at my [professional website](https://www.davidjxgonzalez.me/), access my publicly-available codebases on [GitHub](https://github.com/djxgonzalez), and view my publication record on [Google Scholar](https://scholar.google.com/citations?hl=en&user=I_msswMAAAAJ).

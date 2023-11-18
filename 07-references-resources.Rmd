@@ -1,0 +1,14 @@
+`r if (knitr::is_html_output()) '
+# References and Resources
+'`
+
+
+## Further Reading
+
+- *The Pathway to Publishing: A Guide to Quantitative Writing in the Health Sciences*. 2022. Stephen Luby and Dorothy L. Southern https://doi.org/10.1007/978-3-030-98175-4.
+[description of why this is good]
+
+- *R for Data Science (2nd Edition)*. 2023. Hadley Wickham. https://r4ds.hadley.nz/
+[description of why this is good]
+
+- New book on using census data in R [find link, vet some more]

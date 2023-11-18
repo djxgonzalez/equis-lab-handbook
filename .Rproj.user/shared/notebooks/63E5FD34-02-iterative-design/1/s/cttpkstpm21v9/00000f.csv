@@ -1,0 +1,23 @@
+"0","text"
+"1","function (x, ...) 
+"
+"1","UseMethod(""text"")
+"
+"1","<bytecode: 0x1309b6af0>
+"
+"1","<environment: namespace:graphics>
+"
+"2","Warning messages:
+"
+"2","1: "
+"2","In readLines(index, encoding = encoding) :"
+"2","
+ "
+"2"," incomplete final line found on '/Users/davidgonzalez/Documents/Professional/equis lab group/equis lab handbook/equis-lab-handbook/index.Rmd'
+"
+"2","2: "
+"2","In readLines(index, encoding = encoding) :"
+"2","
+ "
+"2"," incomplete final line found on '/Users/davidgonzalez/Documents/Professional/equis lab group/equis lab handbook/equis-lab-handbook/index.Rmd'
+"

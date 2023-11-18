@@ -1,0 +1,11 @@
+# Primary Research {#primary-research}
+
+[brief intro here]
+
+## Tools
+
+- Project log
+- Manuscript outline
+- RProject
+- GitHub repo 
+
