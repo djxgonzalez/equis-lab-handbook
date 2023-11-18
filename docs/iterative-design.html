@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 Iterative Study Design | Applied Data Science for Epidemiology and Environmental Justice (and Beyond)</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 Iterative Study Design | Applied Data Science for Epidemiology and Environmental Justice (and Beyond)" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 Iterative Study Design | Applied Data Science for Epidemiology and Environmental Justice (and Beyond)" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  
+
+<meta name="author" content="David J.X. González, PhD" />
+
+
+<meta name="date" content="2023-11-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="primary-research.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">EQUILS Lab Handbook</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> url: your book url like https://bookdown.org/yihui/bookdown</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#purpose-of-this-handbook"><i class="fa fa-check"></i><b>1.1</b> Purpose of this Handbook</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#how-to-use-this-handbook"><i class="fa fa-check"></i><b>1.2</b> How to use this Handbook</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#inspiration"><i class="fa fa-check"></i><b>1.3</b> Inspiration</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#about-the-author"><i class="fa fa-check"></i><b>1.4</b> About the author</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="iterative-design.html"><a href="iterative-design.html"><i class="fa fa-check"></i><b>2</b> Iterative Study Design</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="iterative-design.html"><a href="iterative-design.html#tools"><i class="fa fa-check"></i><b>2.1</b> Tools</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="iterative-design.html"><a href="iterative-design.html#project-log"><i class="fa fa-check"></i><b>2.1.1</b> Project Log</a></li>
+<li class="chapter" data-level="2.1.2" data-path="iterative-design.html"><a href="iterative-design.html#high-level-outline"><i class="fa fa-check"></i><b>2.1.2</b> High Level Outline</a></li>
+<li class="chapter" data-level="2.1.3" data-path="iterative-design.html"><a href="iterative-design.html#memos"><i class="fa fa-check"></i><b>2.1.3</b> Memos</a></li>
+<li class="chapter" data-level="2.1.4" data-path="iterative-design.html"><a href="iterative-design.html#reference-manager"><i class="fa fa-check"></i><b>2.1.4</b> Reference Manager</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="iterative-design.html"><a href="iterative-design.html#workflow"><i class="fa fa-check"></i><b>2.2</b> Workflow</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="iterative-design.html"><a href="iterative-design.html#capture-your-ideas"><i class="fa fa-check"></i><b>2.2.1</b> Capture your ideas</a></li>
+<li class="chapter" data-level="2.2.2" data-path="iterative-design.html"><a href="iterative-design.html#conduct-exploratory-analyses"><i class="fa fa-check"></i><b>2.2.2</b> Conduct exploratory analyses</a></li>
+<li class="chapter" data-level="2.2.3" data-path="iterative-design.html"><a href="iterative-design.html#get-feedback"><i class="fa fa-check"></i><b>2.2.3</b> Get feedback</a></li>
+<li class="chapter" data-level="2.2.4" data-path="iterative-design.html"><a href="iterative-design.html#iterate"><i class="fa fa-check"></i><b>2.2.4</b> Iterate</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="iterative-design.html"><a href="iterative-design.html#project-directory"><i class="fa fa-check"></i><b>2.3</b> Setting up your project directory</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="iterative-design.html"><a href="iterative-design.html#naming-projects"><i class="fa fa-check"></i><b>2.3.1</b> Naming projects</a></li>
+<li class="chapter" data-level="2.3.2" data-path="iterative-design.html"><a href="iterative-design.html#naming-files"><i class="fa fa-check"></i><b>2.3.2</b> Naming files</a></li>
+<li class="chapter" data-level="2.3.3" data-path="iterative-design.html"><a href="iterative-design.html#organizing-your-directory"><i class="fa fa-check"></i><b>2.3.3</b> Organizing your directory</a></li>
+<li class="chapter" data-level="2.3.4" data-path="iterative-design.html"><a href="iterative-design.html#resources"><i class="fa fa-check"></i><b>2.3.4</b> Resources</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="primary-research.html"><a href="primary-research.html"><i class="fa fa-check"></i><b>3</b> Primary Research</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="primary-research.html"><a href="primary-research.html#tools-1"><i class="fa fa-check"></i><b>3.1</b> Tools</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="internal-review-and-revisions.html"><a href="internal-review-and-revisions.html"><i class="fa fa-check"></i><b>4</b> Internal Review and Revisions</a></li>
+<li class="chapter" data-level="5" data-path="submission-and-peer-review.html"><a href="submission-and-peer-review.html"><i class="fa fa-check"></i><b>5</b> Submission and Peer Review</a></li>
+<li class="chapter" data-level="6" data-path="publication-and-outreach.html"><a href="publication-and-outreach.html"><i class="fa fa-check"></i><b>6</b> Publication and Outreach</a></li>
+<li class="chapter" data-level="7" data-path="references-and-resources.html"><a href="references-and-resources.html"><i class="fa fa-check"></i><b>7</b> References and Resources</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="references-and-resources.html"><a href="references-and-resources.html#further-reading"><i class="fa fa-check"></i><b>7.1</b> Further Reading</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Applied Data Science for Epidemiology and Environmental Justice (and Beyond)</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="iterative-design" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">2</span> Iterative Study Design<a href="iterative-design.html#iterative-design" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>[brief intro here]
+So, you’ve</p>
+<p>Thinking ahead to how you want to frame your manuscript
+Reviewing literature
+Identifying the research gap you want to fill</p>
+<p>[pick up here]
+At this stage, you need to…
+find datasets
+capture and organize your thinking
+seek out constructive feedback and work it into your plan</p>
+<p><strong>How do I find a good research question?</strong></p>
+<p>This Handbook assumes you’ve already defined your research question, at least broadly. But how do you develop a good research question in the first place? This is one of the more difficult skills to learn in the environmental health sciences, and it’s outside the scope of this Handbook to go into depth on this topic.
+[expand]
+This is a major reason we work in teams, so we can co-develop ideas…</p>
+<div id="tools" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Tools<a href="iterative-design.html#tools" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>At this early stage of the project, I suggest using the following tools to organize your thinking and get feedback from colleagues.</p>
+<div id="project-log" class="section level3 hasAnchor" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Project Log<a href="iterative-design.html#project-log" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>I find it helpful to have a way to organize project-specific notes and tasks, located in an area with the . This could take many forms, such as task management software, a Word document, or a paper journal. I prefer to use a simple text document with basic <a href="https://www.markdownguide.org/getting-started/">Markdown</a> script. I don’t usually share this document. It’s just a designated place to keep track of my coding decisions (e.g., why I decided to go with one R package instead of another), data provenance (e.g., linking to the website I got a particular shapefile from), and where I left off at the end of the work session so I know right where to pick up when I return to the project.</p>
+<p>I organize the project log into two section: <em>Meta</em> and the <em>Daily Log</em>.</p>
+<p>The <em>Meta</em> section includes:</p>
+<ul>
+<li><em>Project Information</em>, including the list of Authors with full names, affiliations, email addresses, and <a href="https://info.orcid.org/what-is-orcid/">ORCIDs</a>. This is helpful when submitting the paper to a journal, as they typically require this information for all co-authors. I also list Presentations, such as conferences, including upcoming conferences I want to submit to with abstract deadlines and/or presentations previously presented at. Sometimes journals ask for this information at the time of submission, so it’s good to keep this hand as well.</li>
+<li><em>Journal Information</em></li>
+<li><em>Data</em></li>
+<li><em>Tasks</em></li>
+</ul>
+<p>The <em>Daily Log</em> section includes an entry for each day spent working on the project. Each entry is typically bullet points capturing information I might want to refer back to at some point in the future. Some examples of useful information to record include:</p>
+<ul>
+<li>Decisions made today regarding which datasets to use</li>
+<li>Decisions on target journals and rationale</li>
+<li>Decisions on methodological approaches</li>
+<li>Major updates to the project codebase</li>
+<li>Correspondence with colleagues</li>
+<li>Notes from team meetings</li>
+<li>Abstracts submitted</li>
+<li>Ideas for figures</li>
+<li>Iasks completed</li>
+</ul>
+<p>[Project Log template]</p>
+</div>
+<div id="high-level-outline" class="section level3 hasAnchor" number="2.1.2">
+<h3><span class="header-section-number">2.1.2</span> High Level Outline<a href="iterative-design.html#high-level-outline" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>This tool comes from <a href="https://doi.org/10.1007/978-3-030-98175-4">Luby and Southern (2023)</a>, <em>The Pathway to Publishing: A Guide to Quantitative Writing in the Health Sciences</em>, and is a helpful organizing document for both the writer and anyone reviewing the document. In this document, the writer briefly summarizes the study’s context, the gap it addresses, and its objectives. The writer also concisely describes the study design, data, and methods, outlines tables and figures, and anticipates strengths, limitations, and prospective findings and conclusions.</p>
+<p>As described by Luby and Southern:</p>
+<blockquote>
+<p>“The role of the high level outline is to sketch out the major components of the manuscript that will support the data analysis included in the framing document <em>[another writing tool suggested by Luby and Southern]</em>. This is an outline,that should be no longer than 1500 words (excluding the tables, figures and references). Full sentences are not necessary.</p>
+</blockquote>
+<blockquote>
+<p>“Keeping the document short helps the author focus on the key elements of the manuscript, and provides early high level input. Because a short document takes less time for authors to produce and less time for co-authors to review, it generates prompt feedback on key ideas, and so supports a faster path to publication. Using this approach prevents authors investing weeks or months developing full draft manuscripts, that are off target with pages and pages of prose that need to be discarded.”</p>
+</blockquote>
+<p>I highly recommend reading <a href="https://doi.org/10.1007/978-3-030-98175-4">Luby and Southern (2023)</a> to learn more about their approach to scientific writing and to see templates of the high level outline and other writing tools.</p>
+</div>
+<div id="memos" class="section level3 hasAnchor" number="2.1.3">
+<h3><span class="header-section-number">2.1.3</span> Memos<a href="iterative-design.html#memos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In the context of applied data science, by memo I mean a self-contained RMarkdown document that poses and answers a set of questions related to the project. I find this particularly helpful at early stages of a project, such as conducting exploratory analyses of environmental datasets, for example summarizing data on daily particulate matter concentrations, from a monitoring network, or testing out code to carry out a basic data science task, such as assigning particulate matter exposures to a patient population.</p>
+</div>
+<div id="reference-manager" class="section level3 hasAnchor" number="2.1.4">
+<h3><span class="header-section-number">2.1.4</span> Reference Manager<a href="iterative-design.html#reference-manager" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Cultivating your readings/references is a fundamental research skill. There are several options to choose from, with some degree of cross-compatibility among them. I use <a href="">PaperPile</a>, and other commonly used software includes <a href="">Zotero</a>, <a href="">Mendeley</a>, and <a href="">EndNote</a>. You can learn more about Reference Managers at <a href="https://guides.lib.berkeley.edu/publichealth/citations">this website</a> from the UC Berkeley Library.</p>
+</div>
+</div>
+<div id="workflow" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Workflow<a href="iterative-design.html#workflow" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="capture-your-ideas" class="section level3 hasAnchor" number="2.2.1">
+<h3><span class="header-section-number">2.2.1</span> Capture your ideas<a href="iterative-design.html#capture-your-ideas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="conduct-exploratory-analyses" class="section level3 hasAnchor" number="2.2.2">
+<h3><span class="header-section-number">2.2.2</span> Conduct exploratory analyses<a href="iterative-design.html#conduct-exploratory-analyses" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="get-feedback" class="section level3 hasAnchor" number="2.2.3">
+<h3><span class="header-section-number">2.2.3</span> Get feedback<a href="iterative-design.html#get-feedback" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Ideally you have a network of formal mentors ready to provide feedback, including your adviser and other members of your lab group.
+Also: community partners</p>
+</div>
+<div id="iterate" class="section level3 hasAnchor" number="2.2.4">
+<h3><span class="header-section-number">2.2.4</span> Iterate<a href="iterative-design.html#iterate" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Revise your high level outline
+Do more exploratory analyses
+Talk to your colleagues
+Read the literature, and pay attention to the methods and findings
+Methods to build on?
+Hypotheses to follow up opn?</p>
+</div>
+</div>
+<div id="project-directory" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Setting up your project directory<a href="iterative-design.html#project-directory" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="naming-projects" class="section level3 hasAnchor" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Naming projects<a href="iterative-design.html#naming-projects" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>[Brief Intro]</p>
+<p>Each project gets it’s own directory, and each of those directories needs a name. I try to keep things simple, so I use this basic convention for naming projects: Setting-Exposure-Outcome. For example, a project where the setting is the, the exposure is wildfire smoke, and the outcome is preterm birth (PTB), I would name the directory: <code>cal-wildfiresmoke-ptb</code>.</p>
+</div>
+<div id="naming-files" class="section level3 hasAnchor" number="2.3.2">
+<h3><span class="header-section-number">2.3.2</span> Naming files<a href="iterative-design.html#naming-files" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>I think it’s best to keep this simple. If you follow the above strategy, then information about the project is already conveyed in the file structure itself. There’s no need to write specific names for universal documents, like the manuscript or supplementary materials. I keep these filenames simple, e.g., <code>manuscript01</code> or <code>supplementary01</code>. With each iteration, you can simply increment the numerical suffix. The second draft of the manuscript can be <code>manuscript02</code>. Co-authors can add their initials at the end of the document (e.g., <code>manuscript02-abc-xyz</code>), and when you address their suggestions you can simply move on to the next iteration (<code>manuscript03</code>).</p>
+</div>
+<div id="organizing-your-directory" class="section level3 hasAnchor" number="2.3.3">
+<h3><span class="header-section-number">2.3.3</span> Organizing your directory<a href="iterative-design.html#organizing-your-directory" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>I use a standard</p>
+<p>[insert an image here showing directory tree]</p>
+</div>
+<div id="resources" class="section level3 hasAnchor" number="2.3.4">
+<h3><span class="header-section-number">2.3.4</span> Resources<a href="iterative-design.html#resources" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>You can download a full template for my research project structure <a href="">here</a>, including templates for the Concept Note and Project Log.</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="primary-research.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/02-iterative-design.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
