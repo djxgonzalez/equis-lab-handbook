@@ -1,14 +1,13 @@
-`r if (knitr::is_html_output()) '
-# References and Resources
-'`
+# References and Resources {-#resources}
 
+All resources linked to throughout the Handbook are copied below.
 
-## Further Reading
+## Web Tutorials {-#resourecs-tutorials}
 
-- *The Pathway to Publishing: A Guide to Quantitative Writing in the Health Sciences*. 2022. Stephen Luby and Dorothy L. Southern https://doi.org/10.1007/978-3-030-98175-4.
-[description of why this is good]
+* [Get Started with GitHub: Hello World](https://docs.github.com/en/get-started/quickstart/hello-world){target='blank}
 
-- *R for Data Science (2nd Edition)*. 2023. Hadley Wickham. https://r4ds.hadley.nz/
-[description of why this is good]
+## Further Reading {-#resources-reading}
 
-- New book on using census data in R [find link, vet some more]
+* *[Efficient R Programming](https://csgillespie.github.io/efficientR/){target='blank'}*, Colin Gillespie and Robin Lovelace (2021)
+* *[The Pathway to Publishing: A Guide to Quantitative Writing in the Health Sciences](https://doi.org/10.1007/978-3-030-98175-4){target='blank'}*, Stephen Luby and Dorothy L. Southern (2022)
+* *[R for Data Science (2nd Edition)](https://r4ds.hadley.nz/){target='blank'}*, Hadley Wickham (2023)

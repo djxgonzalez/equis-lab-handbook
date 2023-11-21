@@ -1,7 +1,7 @@
 h1:iterative-design Iterative Study Design
-h2:workflow Workflow
-h3:outline-your-background-aims-and-methods Outline your background, aims, and methods
-h3:set-up-your-project-directory-and-assemble-data Set up your project directory and assemble data
+h2:study-design-workflow Study Design Workflow
+h3:write-an-outline Write an outline
+h3:set-up-your-data-workspace Set up your data workspace
 h3:explore-your-data Explore your data
 h3:ask-for-feedback Ask for feedback
 h3:iterate Iterate
@@ -10,10 +10,8 @@ h3:project-log Project Log
 h3:high-level-outline High Level Outline
 h3:data-memos Data Memos
 h3:reference-manager Reference Manager
-h3:style-guide Style Guide
-h2:project-directory Setting up Your Project Directory
+h2:setting-up-your-project-directory Setting up your project directory
 h3:naming-projects Naming projects
 h3:naming-files Naming files
 h3:organizing-your-directory Organizing your directory
-h3:resources Resources
 

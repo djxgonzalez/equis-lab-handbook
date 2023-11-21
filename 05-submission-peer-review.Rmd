@@ -1,2 +1,46 @@
-# Submission and Peer Review
+# Submission and Peer Review {#submission}
 
+At this stage you've completed all of your analyses, written a manuscript, and solicited and responded to feedback from your co-authors. You're now ready to submit to a scientific journal!
+
+## Before you submit
+
+### Double-check the author guide
+
+Make sure the manuscript is properly formatted.
+
+### Write a cover letter
+
+Cover letters are an opportunity to describe to the journal's editors what your manuscript adds to the literature and a why it's good fit for their journal. [expand]
+
+Some journals require cover letters, some do not. 
+
+### Assemble your materials
+
+Manuscript
+Tables and figures
+Supplementary information
+Meta data for the study
+
+If you've followed the steps in this Handbook, you should already have most of the information the journal will ask for in your Project Log.
+
+Conflicts of interest declaration
+
+Journals will typically ask that you suggest peer reviewers.
+[suggestiosn for this]
+
+### Hit submit and update your team
+
+You've just submitted a manuscript for peer review. Send an email update to the full authorship team, attach the auto-generated PDF of the submission, and let them know you'll keep them 
+
+## Types of editorial decisions
+
+* **Desk rejection.** 
+* **Rejection after peer review.** Ideally you'll be able to see the comments from the peer reviewers, which you can bring to your team and decide whether and how to address them before re-submitting or submitting to a different journal.
+* **Revise and re-submit.** Below I discuss strategies to address reviewer comments.
+* **Accepted.** It is very rare for papers to be accepted without revisions, but it does happen. 
+
+## Addressing reviewer comments
+
+Every comment needs to be addressed. Take a professional and respectful tone, even if the comments themselves are not. It's common, but not necessary, to thank reviewers for their suggestions.
+
+As you respond to comments, make it easy for the editors and peer reviewers by saying where you made changes and what you changed text to.You don't have to agree with everything the the reviewer suggested. [expand]

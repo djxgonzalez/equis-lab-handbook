@@ -1,11 +1,24 @@
-# Primary Research {#primary-research}
+# Primary Research
 
-[brief intro here]
+## Setting up your analysis
+
+I encourage my students to work incrementally and write as they go, rather than saving the writing for the end...
+
 
 ## Tools
 
-- Project log
-- Manuscript outline
-- RProject
-- GitHub repo 
+### Manuscript Outline
 
+Evolve this from the HLO
+
+### GitHub Repo
+
+
+
+### Style Guide
+
+A style guide is a system for writing consistent and readable code, including syntax, layout, and naming conventions for functions and objects. Again, the goal is to reduce the number of logistical decisions you need to make so you can focus on your research. You don't need to invent your own system, but you should feel free to iterate on the existing ones. I use [The tidyverse style guide](https://style.tidyverse.org/index.html) to style my R code, and there are other options out there, including the [Google R Style Guide](https://google.github.io/styleguide/Rguide.html). Other languages have their own style guides, such as the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/).
+
+### Project Log
+
+Continue to use the project log you started in the Iterative Design stage, making updates as needed to the *Meta* section (e.g., additional co-authors, new datasets) and the *Daily Log*.
