@@ -68,3 +68,9 @@ capture-your-ideas
 conduct-exploratory-analyses
 get-feedback
 iterate
+data-memos
+outline-your-background-aims-and-methods
+set-up-your-project-directory-and-assemble-data
+explore-your-data
+ask-for-feedback
+style-guide
