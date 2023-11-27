@@ -6,12 +6,9 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+url: https://djxgonzalez.github.io/equis-lab-handbook/
 description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
-  set in the _output.yml file.
+  A guide to organizing data science projects in the environmental health sciences.
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
@@ -44,7 +41,7 @@ Use the links on the left to jump to the section of the Handbook describing each
 
 I recommend reading through the full Handbook before you get started with your project, so you can get a sense of the whole picture and what you can be planning ahead for. Then, during the course your research, you can refer to the specific stage that you're at.
 
-Throughout the Handbook, I share examples from my own in-process and published work
+Throughout the Handbook, I share examples from my own in-process and published work.
 
 ## Inspiration {-#introduction-inspiration}
 

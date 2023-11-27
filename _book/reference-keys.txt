@@ -133,3 +133,4 @@ finalize-your-first-draft
 tool-reference-manager
 assemble-your-materials-1
 submitting-to-a-journal
+cover-image-path-to-the-social-sharing-image-like-imagescover.jpg
