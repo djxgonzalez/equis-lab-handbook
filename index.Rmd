@@ -35,7 +35,7 @@ There is not one right way to do this work. Here, I simply offer an approach tha
 I've organized the handbook to follow the workflow of a typical data science project. These stages are:
 
 1. **Iterative Study Design**
-2. **Primary Research**
+2. **Primary Research and Writing**
 3. **Internal Review and Revisions**
 4. **Submission and Peer Review**
 5. **Publication and Outreach**
@@ -44,12 +44,12 @@ Use the links on the left to jump to the section of the Handbook describing each
 
 I recommend reading through the full Handbook before you get started with your project, so you can get a sense of the whole picture and what you can be planning ahead for. Then, during the course your research, you can refer to the specific stage that you're at.
 
-Throughout the Handbook, I use example code and data from our study, 'Quantifying the intersecting threats of wildfire and oil and gas development in the western United States,' currently under review. All code and publicly available data utilized in our analysis will be made available via [Zenodo](https://doi.org/10.5281/zenodo.8222874) and [Dryad](https://datadryad.org/stash/share/AiCy6UXwqaHutn0egT8ldRkqMNjo2EeWvazIUR7xuOY), respectively. You can also refer to the [GitHub repo](https://github.com/djxgonzalez/us-wildfire-ogd) for code from this project. 
+Throughout the Handbook, I share examples from my own in-process and published work
 
 ## Inspiration {-#introduction-inspiration}
 
 As with all scientific efforts, in writing this Handbook I'm standing on the shoulders of some talented colleagues. Rather than a solo invention, the strategies discussed here are an amalgam of others' work and my own iterative process of using data science in my research. Particularly influential for me were Hadley Wickam's *[R for Data Science](https://r4ds.hadley.nz/)* and Steve Luby and Dorothy Southern's *[The Pathway to Publishing: A Guide to Quantitative Writing in the Health Sciences](https://doi.org/10.1007/978-3-030-98175-4)*. As many of us do, I've also learned from the generous advice-givers on Stack Overflow and similar forums.
 
-## About the Author {-#introduction-author}
+## About the author {-#introduction-author}
 
 I’m an [Assistant Professor](https://publichealth.berkeley.edu/people/david-gonzalez/) of Environmental Health Sciences at the UC Berkeley School of Public Health and the Principal Investigator of the [EQUIS Lab](https://equislab.publichealth.berkeley.edu/). I have interdisciplinary training as an epidemiologist and environmental scientist, which I apply to investigate the environmental and public health impacts of extractive industries and climate-driven disasters. My research centers environmental justice and health disparities, with the aim of informing evidence-based interventions to improve health and address persistent inequities. Recently, I have focused on the health impacts of oil and gas development and wildfire smoke, using population-level data and community-engaged methods. You can learn more about work at my [professional website](https://www.davidjxgonzalez.me/), access my publicly-available codebases on [GitHub](https://github.com/djxgonzalez), and view my publication record on [Google Scholar](https://scholar.google.com/citations?hl=en&user=I_msswMAAAAJ).

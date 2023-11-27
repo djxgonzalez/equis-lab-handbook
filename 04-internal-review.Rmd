@@ -1,16 +1,21 @@
 # Internal Review and Revisions {#internalreview}
 
-Before you submit to peer review, you'll need to go through a process of internal review with all co-authors on the manuscript.
+You have a completed first draft manuscript, describing what you did, what you found, and your interpretation of the results and how they relate to the field. Before you submit to peer review, you'll need to go through a process of internal review and get sign-off on the final draft from all of your co-authors. Ideally, this is an opportunity to identify any errors, hone your arguments, and ask for specific input from experts on your writing team. Be prepared for several rounds of iteration, as some of your collaborators may have more suggestions to offer.
 
-## Getting organized
+Below, I make some suggestions for how to approach this stage of the project. Your goal is to make things as straightforward as possible for your co-authors, so they can focus on providing constructive and substantial feedback. Again, make sure to check with your advisers and your writing team to see if they have their own system or preferences for doing internal review.
 
-By this point you should have decided which journal you aim to submit to first, and possibly second and third choice journals (and beyond).
-Each journal has an Author Guide, which describes what you'll need to do to prepare 
+## Assemble your materials
 
-## Managing the internal revisions process
+Review your manuscript, checking to make sure you have all of the essential elements: title, authors and affiliations list, abstract, main text, figures, tables, references. Double-check that the manuscript adheres to your target journal's author guide. It's okay if your manuscript doesn't perfectly meet the guidelines if, for example, you're over the word limit and you'd like your co-authors to weigh in on how to tighten things up.
 
-Work styles will vary...
+Separately, review the supplementary material and check that all of the figures and tables are included and properly formatted (journal guidelines are typically loose).
 
-## Finalizing the manuscript
+## Ask for feedback
 
-Before you submit, you'll need to get sign-off from all co-authors...
+Work styles will vary. In the EQUIS Lab, the first round of feedback comes from core writing team, which includes the first author, senior (or last) author, and any other key investigators who are deeply involved in the study. We'll typically do a few rounds of revisions with the core writing team.
+
+Once the core writing team signs off on the draft, it's time to get feedback from the full co-authorship team. In your email, make sure to say that the core team has already reviewed and approved the current draft. It's also helpful to give a deadline, typically with at least two weeks to review and provide comment. Do as many rounds of this as needed to address your co-authors' concerns.
+
+## Finalize your submission
+
+Ask for any necessary clarifications or final input from your co-authors. Check that your manuscript adheres to your target journal's author guide. Proofread your manuscript. Once that's done, it's time to submit!

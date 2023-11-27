@@ -1,6 +1,6 @@
 # References and Resources {-#resources}
 
-All resources linked to throughout the Handbook are copied below.
+All resources linked to throughout the Handbook, and a few additional helpful links, are copied below.
 
 ## Web Tutorials {-#resourecs-tutorials}
 

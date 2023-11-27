@@ -1,6 +1,6 @@
 # Submission and Peer Review {#submission}
 
-At this stage you've completed all of your analyses, written a manuscript, and solicited and responded to feedback from your co-authors. You're now ready to submit to a scientific journal!
+Your manuscript and all other materials are finalized. Now you're ready to submit!
 
 ## Before you submit
 
@@ -28,16 +28,21 @@ Conflicts of interest declaration
 Journals will typically ask that you suggest peer reviewers.
 [suggestiosn for this]
 
-### Hit submit and update your team
+## Submitting to a journal
 
-You've just submitted a manuscript for peer review. Send an email update to the full authorship team, attach the auto-generated PDF of the submission, and let them know you'll keep them 
+
+Typically, the system will generate a PDF proof with all of your materials. Give it one final look, verify that everything is there that you uploaded the correct drafts, properly formatted. If everything looks good--hit submit.
+
+Congratulations!
+
+Send an email update to your co-authors, attach the auto-generated PDF proof, and let them know you'll keep them in the loop about the journal's decision.
 
 ## Types of editorial decisions
 
-* **Desk rejection.** 
-* **Rejection after peer review.** Ideally you'll be able to see the comments from the peer reviewers, which you can bring to your team and decide whether and how to address them before re-submitting or submitting to a different journal.
-* **Revise and re-submit.** Below I discuss strategies to address reviewer comments.
-* **Accepted.** It is very rare for papers to be accepted without revisions, but it does happen. 
+* **Desk rejection.** The editors made a decision to reject your paper without sending it on to peer reviewers. Sorry. This is common, don't sweat it, just move on and submit to the next journal on your list!
+* **Rejection after peer review.** The editor thought your paper was fit to send to peer reviewers, but after receiving those reviews, decided to reject the paper. Sorry, again, not uncommon at all. Ideally you'll be able to see the comments from the peer reviewers, which you can bring to your team and decide whether and how to address them before re-submitting or submitting to a different journal.
+* **Revise and re-submit.** [expand] Below I discuss strategies to address reviewer comments.
+* **Accepted.** Congratulations! Typically, you'll need to go through several rounds of revisions before you reach this stage. It is very rare for papers to be accepted without revisions, but it does happen.
 
 ## Addressing reviewer comments
 

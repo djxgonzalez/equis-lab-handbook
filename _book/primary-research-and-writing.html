@@ -4,13 +4,13 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>5 Submission and Peer Review | Applied Data Science for Epidemiology and Environmental Justice (and Beyond)</title>
+  <title>3 Primary Research and Writing | Applied Data Science for Epidemiology and Environmental Justice (and Beyond)</title>
   <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
   <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="5 Submission and Peer Review | Applied Data Science for Epidemiology and Environmental Justice (and Beyond)" />
+  <meta property="og:title" content="3 Primary Research and Writing | Applied Data Science for Epidemiology and Environmental Justice (and Beyond)" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
@@ -19,7 +19,7 @@ set in the _output.yml file.</p>" />
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="5 Submission and Peer Review | Applied Data Science for Epidemiology and Environmental Justice (and Beyond)" />
+  <meta name="twitter:title" content="3 Primary Research and Writing | Applied Data Science for Epidemiology and Environmental Justice (and Beyond)" />
   
   <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
@@ -36,8 +36,8 @@ set in the _output.yml file.</p>" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="internalreview.html"/>
-<link rel="next" href="publication.html"/>
+<link rel="prev" href="iterative-design.html"/>
+<link rel="next" href="internalreview.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -178,52 +178,67 @@ set in the _output.yml file.</p>" />
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="submission" class="section level1 hasAnchor" number="5">
-<h1><span class="header-section-number">5</span> Submission and Peer Review<a href="submission.html#submission" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Your manuscript and all other materials are finalized. Now you’re ready to submit!</p>
-<div id="before-you-submit" class="section level2 hasAnchor" number="5.1">
-<h2><span class="header-section-number">5.1</span> Before you submit<a href="submission.html#before-you-submit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="double-check-the-author-guide" class="section level3 hasAnchor" number="5.1.1">
-<h3><span class="header-section-number">5.1.1</span> Double-check the author guide<a href="submission.html#double-check-the-author-guide" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Make sure the manuscript is properly formatted.</p>
+<div id="primary-research-and-writing" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">3</span> Primary Research and Writing<a href="primary-research-and-writing.html#primary-research-and-writing" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>You have a sound study design and consensus among your team about the the study methods. Now it’s time to do the primary analyses and write up your findings. Again, the <em>how</em> of doing your research is outside the scope of this Handbook. In this section, I make suggestions for staying organized and working efficiently.</p>
+<div id="set-up-your-data-science-project" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Set up your data science project<a href="primary-research-and-writing.html#set-up-your-data-science-project" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>You have a lot of decisions to make as a researcher. Rather than the quotidian logistics of managing a data science project–what name to give a file, where to export your data–I’d like you to focus on the intricacies of study design and data analysis. In that spirit, here I describe my data science project management system.</p>
+<p>If you or your lab group already have a system for setting up data projects—-great. If you’d like to take this system as a starting point to iterate on—-fantastic, I encourage it!</p>
+<div id="naming-projects" class="section level3 hasAnchor" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Naming projects<a href="primary-research-and-writing.html#naming-projects" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Each project gets it’s own directory (aka folder), and each of those directories needs a name. I try to keep things simple and consistent, so I use this basic convention for naming projects: Setting-Exposure-Outcome. For example, a project where the setting is California, the exposure is wildfire smoke, and the outcome is preterm birth, I would name the directory: <code>cal-wildfiresmoke-ptb</code>.</p>
 </div>
-<div id="write-a-cover-letter" class="section level3 hasAnchor" number="5.1.2">
-<h3><span class="header-section-number">5.1.2</span> Write a cover letter<a href="submission.html#write-a-cover-letter" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Cover letters are an opportunity to describe to the journal’s editors what your manuscript adds to the literature and a why it’s good fit for their journal. [expand]</p>
-<p>Some journals require cover letters, some do not.</p>
+<div id="naming-files" class="section level3 hasAnchor" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Naming files<a href="primary-research-and-writing.html#naming-files" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>I like to keep file names short and simple. If you follow the above strategy, then information about the project is already conveyed in the directory structure itself. Also, there’s no need to write specific names for documents every project has, like the manuscript or supplementary materials. I keep these filenames simple, e.g., <code>manuscript01</code> or <code>supplementary01</code>. With each iteration, you can simply go to the next draft number. I.e., the second draft would be <code>manuscript02</code>. When you ask co-authors for feedback, they can add their initials at the end of the filename (e.g., <code>manuscript02-abc-xyz</code>). When you’re ready to you incorporate co-author feedback, you can again simply move on to the next number (<code>manuscript03</code>).</p>
 </div>
-<div id="assemble-your-materials-1" class="section level3 hasAnchor" number="5.1.3">
-<h3><span class="header-section-number">5.1.3</span> Assemble your materials<a href="submission.html#assemble-your-materials-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Manuscript
-Tables and figures
-Supplementary information
-Meta data for the study</p>
-<p>If you’ve followed the steps in this Handbook, you should already have most of the information the journal will ask for in your Project Log.</p>
-<p>Conflicts of interest declaration</p>
-<p>Journals will typically ask that you suggest peer reviewers.
-[suggestiosn for this]</p>
+<div id="organizing-your-directory" class="section level3 hasAnchor" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Organizing your directory<a href="primary-research-and-writing.html#organizing-your-directory" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>[Figure. Example Project Directory]</p>
+<p>You can download a full template for my research project structure <a href="">here</a>, including templates for the Concept Note and Project Log. [<em>Note: These resources have not been posted yet</em>]</p>
 </div>
 </div>
-<div id="submitting-to-a-journal" class="section level2 hasAnchor" number="5.2">
-<h2><span class="header-section-number">5.2</span> Submitting to a journal<a href="submission.html#submitting-to-a-journal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Typically, the system will generate a PDF proof with all of your materials. Give it one final look, verify that everything is there that you uploaded the correct drafts, properly formatted. If everything looks good–hit submit.</p>
-<p>Congratulations!</p>
-<p>Send an email update to your co-authors, attach the auto-generated PDF proof, and let them know you’ll keep them in the loop about the journal’s decision.</p>
+<div id="manage-your-code" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Manage your code<a href="primary-research-and-writing.html#manage-your-code" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>[brief intro]</p>
+<div id="tool-style-guide" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Tool: Style Guide<a href="primary-research-and-writing.html#tool-style-guide" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A style guide is a system for writing consistent and readable code, including syntax, layout, and naming conventions for functions and objects. Again, the goal is to reduce the number of logistical decisions you need to make so you can focus on your research. You don’t need to invent your own system, but you should feel free to iterate on the existing ones. I use <a href="https://style.tidyverse.org/index.html">The tidyverse style guide</a> to style my R code, and there are other options out there, including the <a href="https://google.github.io/styleguide/Rguide.html">Google R Style Guide</a>. Other languages have their own style guides, such as the <a href="https://peps.python.org/pep-0008/">PEP 8 Style Guide for Python</a>.</p>
 </div>
-<div id="types-of-editorial-decisions" class="section level2 hasAnchor" number="5.3">
-<h2><span class="header-section-number">5.3</span> Types of editorial decisions<a href="submission.html#types-of-editorial-decisions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ul>
-<li><strong>Desk rejection.</strong> The editors made a decision to reject your paper without sending it on to peer reviewers. Sorry. This is common, don’t sweat it, just move on and submit to the next journal on your list!</li>
-<li><strong>Rejection after peer review.</strong> The editor thought your paper was fit to send to peer reviewers, but after receiving those reviews, decided to reject the paper. Sorry, again, not uncommon at all. Ideally you’ll be able to see the comments from the peer reviewers, which you can bring to your team and decide whether and how to address them before re-submitting or submitting to a different journal.</li>
-<li><strong>Revise and re-submit.</strong> [expand] Below I discuss strategies to address reviewer comments.</li>
-<li><strong>Accepted.</strong> Congratulations! Typically, you’ll need to go through several rounds of revisions before you reach this stage. It is very rare for papers to be accepted without revisions, but it does happen.</li>
-</ul>
+<div id="tool-github-repo" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Tool: GitHub Repo<a href="primary-research-and-writing.html#tool-github-repo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Git is a system for… [describe]. GitHub is a platform for… [describe]</p>
+<p>This is helpful for several reasons:
+- Version control, so you can go back to older versions of your code if you need to.
+- Code sharing with your team, so that a collaborator on another machine can read and edit your code.
+- Open data science, so you can publish and share your code with the world to accompany your eventual paper.</p>
+<p>You can use the command line to access GitHub (here’s a <a href="">tutorial</a>), or simply download and use the <a href="">GitHub Desktop</a> app.</p>
 </div>
-<div id="addressing-reviewer-comments" class="section level2 hasAnchor" number="5.4">
-<h2><span class="header-section-number">5.4</span> Addressing reviewer comments<a href="submission.html#addressing-reviewer-comments" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Every comment needs to be addressed. Take a professional and respectful tone, even if the comments themselves are not. It’s common, but not necessary, to thank reviewers for their suggestions.</p>
-<p>As you respond to comments, make it easy for the editors and peer reviewers by saying where you made changes and what you changed text to.You don’t have to agree with everything the the reviewer suggested. [expand]</p>
+</div>
+<div id="write-as-you-go" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Write as you go<a href="primary-research-and-writing.html#write-as-you-go" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>I encourage my students to work incrementally and write as they go. There are a few advantages to this.
+Describe the methods
+As you go, if you think of strengths or Limits</p>
+<div id="keep-good-notes" class="section level3 hasAnchor" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Keep good notes<a href="primary-research-and-writing.html#keep-good-notes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Keep using the project log you started in the Iterative Study Design stage. Update the <em>Meta</em> section as needed (e.g., add new co-authors or datasets) and track decisions in the <em>Daily Log</em>.</p>
+</div>
+<div id="outline-the-manuscript" class="section level3 hasAnchor" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Outline the manuscript<a href="primary-research-and-writing.html#outline-the-manuscript" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>If you wrote a high level outline, you already have a starting point for your manuscript. You can directly turn the high level outline into a manuscript outline, add the results and discussion sections, and edit the tenses (e.g., change “we will do xyz” to “we did xyz”). As you do your analyes–maybe while waiting for a script to run–you can work on the manuscript outline.</p>
+</div>
+<div id="finalize-your-first-draft" class="section level3 hasAnchor" number="3.3.3">
+<h3><span class="header-section-number">3.3.3</span> Finalize your first draft<a href="primary-research-and-writing.html#finalize-your-first-draft" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Once you’re down with your analyses… [expand]</p>
+<p>If you haven’t already, decide on which journal you’d like to submit to first. This is a decision you should make with your adviser, with input from your co-authorship team. It’s not a bad idea to also choose second and third choice journals (and beyond), in the not unlikely scenario that your paper is rejected. Once you have your target journal, make sure to carefully read the journal’s Author Guide, which describes their requirements for formatting, word limits, etc.</p>
+</div>
+<div id="tool-reference-manager" class="section level3 hasAnchor" number="3.3.4">
+<h3><span class="header-section-number">3.3.4</span> Tool: Reference Manager<a href="primary-research-and-writing.html#tool-reference-manager" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>You’re probably using one of these already. References managers like <a href="https://www.zotero.org/">Zotero</a>, <a href="https://www.mendeley.com/">Mendeley</a>, <a href="https://endnote.com/">EndNote</a>, and <a href="https://paperpile.com/">PaperPile</a> (my favorite) help you organize your reading, make highlights, and take notes. Integrate your reference manager with your word processor so you can drop in-text citations, automatically generate a list of literature cited, and instantly change the citation format for different journals. The UC Berkeley Library has more information on reference managers <a href="https://guides.lib.berkeley.edu/publichealth/citations">here</a>.</p>
 
+</div>
 </div>
 </div>
             </section>
@@ -231,8 +246,8 @@ Meta data for the study</p>
           </div>
         </div>
       </div>
-<a href="internalreview.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="publication.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="iterative-design.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="internalreview.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -263,7 +278,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/05-submission-peer-review.Rmd",
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/03-primary-research.Rmd",
 "text": "Edit"
 },
 "history": {
