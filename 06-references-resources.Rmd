@@ -4,10 +4,10 @@ All resources linked to throughout the Handbook, and a few additional helpful li
 
 ## Web Tutorials {-#resourecs-tutorials}
 
-* [Get Started with GitHub: Hello World](https://docs.github.com/en/get-started/quickstart/hello-world){target='blank}
+* [Get Started with GitHub: Hello World](https://docs.github.com/en/get-started/quickstart/hello-world){target="_blank"}
 
 ## Further Reading {-#resources-reading}
 
-* *[Efficient R Programming](https://csgillespie.github.io/efficientR/){target='blank'}*, Colin Gillespie and Robin Lovelace (2021)
-* *[The Pathway to Publishing: A Guide to Quantitative Writing in the Health Sciences](https://doi.org/10.1007/978-3-030-98175-4){target='blank'}*, Stephen Luby and Dorothy L. Southern (2022)
-* *[R for Data Science (2nd Edition)](https://r4ds.hadley.nz/){target='blank'}*, Hadley Wickham (2023)
+* *[Efficient R Programming](https://csgillespie.github.io/efficientR/){target="_blank"}*, Colin Gillespie and Robin Lovelace (2021)
+* *[The Pathway to Publishing: A Guide to Quantitative Writing in the Health Sciences](https://doi.org/10.1007/978-3-030-98175-4){target="_blank"}*, Stephen Luby and Dorothy L. Southern (2022)
+* *[R for Data Science (2nd Edition)](https://r4ds.hadley.nz/){target="_blank"}*, Hadley Wickham (2023)
