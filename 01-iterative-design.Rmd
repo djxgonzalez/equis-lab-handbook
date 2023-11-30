@@ -21,7 +21,8 @@ In the *Daily Log* section, you can take running notes on decision you're making
 
 The Project Log is a tool for you, no need to share it. Think ahead to where you'll be six months from now, putting the finishing touches on your manuscript before you submit it for peer review. Write in a way that you think will make sense to you at that stage, so that you can quickly find information you need.
 
-[*add link to sample daily log + template*]
+Download a [daily log template](https://github.com/djxgonzalez/equis-lab-handbook/blob/main/files/log-project.md){:target="_blank"}.
+[*add link to sample daily log*]
 
 ## Design your study
 
