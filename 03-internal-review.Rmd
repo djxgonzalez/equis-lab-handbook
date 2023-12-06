@@ -10,11 +10,28 @@ Review your manuscript, checking to make sure you have all of the essential elem
 
 Separately, review the supplementary material and check that all of the figures and tables are included and properly formatted (journal guidelines are typically loose).
 
-## Ask for feedback
+## Get feedback on your draft manuscript
 
 Work styles will vary. In the EQUIS Lab, the first round of feedback comes from core writing team, which includes the first author, senior (or last) author, and any other key investigators who are deeply involved in the study. We'll typically do a few rounds of revisions with the core writing team.
 
 Once the core writing team signs off on the draft, it's time to get feedback from the full co-authorship team. In your email, make sure to say that the core team has already reviewed and approved the current draft. It's also helpful to give a deadline, typically with at least two weeks to review and provide comment. Do as many rounds of this as needed to address your co-authors' concerns.
+
+### Version control
+
+- [need this]
+
+### Get other information from co-authors
+
+If you haven't already, this is a good time to ask for:
+
+- Grant numbers + who they're attached to
+- ORCIDs
+- Conflicts of interest
+- IRB protocol number(s)
+
+## Code review
+
+- what it is, how it might be helpful; as co-authorship criteria?
 
 ## Finalize your submission
 

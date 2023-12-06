@@ -28,7 +28,11 @@ Conflicts of interest declaration
 Journals will typically ask that you suggest peer reviewers.
 [suggestiosn for this]
 
-## Submitting to a journal
+## Article preprints
+
+[what they are, advantages/things to consider, what to expect when submitting (minimal screening)]
+
+## Submitting to a peer reviewed journal journal
 
 
 Typically, the system will generate a PDF proof with all of your materials. Give it one final look, verify that everything is there that you uploaded the correct drafts, properly formatted. If everything looks good--hit submit.
@@ -37,7 +41,13 @@ Congratulations!
 
 Send an email update to your co-authors, attach the auto-generated PDF proof, and let them know you'll keep them in the loop about the journal's decision.
 
-## Types of editorial decisions
+## How peer review works
+
+[editors review articles, make a decision as to whether to send to peer reviewers]
+[typically several peer reviewers...]
+[be prepared for this to be a slow process...]
+
+### Types of editorial decisions
 
 * **Desk rejection.** The editors made a decision to reject your paper without sending it on to peer reviewers. Sorry. This is common, don't sweat it, just move on and submit to the next journal on your list!
 * **Rejection after peer review.** The editor thought your paper was fit to send to peer reviewers, but after receiving those reviews, decided to reject the paper. Sorry, again, not uncommon at all. Ideally you'll be able to see the comments from the peer reviewers, which you can bring to your team and decide whether and how to address them before re-submitting or submitting to a different journal.
@@ -49,3 +59,9 @@ Send an email update to your co-authors, attach the auto-generated PDF proof, an
 Every comment needs to be addressed. Take a professional and respectful tone, even if the comments themselves are not. It's common, but not necessary, to thank reviewers for their suggestions.
 
 As you respond to comments, make it easy for the editors and peer reviewers by saying where you made changes and what you changed text to.You don't have to agree with everything the the reviewer suggested. [expand]
+
+[give your co-authors a chance to respond and give them a deadline; if they don't respond by then (and you're not waiting on critical input), you can move ons]
+
+[who to talk to about reviewer comments]
+
+[add link to 'Ten Simple Rules' for peer review article]

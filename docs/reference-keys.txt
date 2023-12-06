@@ -135,3 +135,15 @@ assemble-your-materials-1
 submitting-to-a-journal
 cover-image-path-to-the-social-sharing-image-like-imagescover.jpg
 talk-about-authorship
+talking-about-authorship
+authorship-expectations
+choose-a-target-journal
+open-access-and-article-processing-charges
+get-feedback-on-your-draft-manuscript
+version-control
+get-other-information-from-co-authors
+code-review
+article-preprints
+submitting-to-a-peer-reviewed-journal-journal
+how-peer-review-works
+author-order

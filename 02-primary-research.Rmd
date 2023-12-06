@@ -64,3 +64,17 @@ If you haven't already, decide on which journal you'd like to submit to first. T
 ### Tool: Reference Manager
 
 You're probably using one of these already. References managers like [Zotero](https://www.zotero.org/){target="_blank"}, [Mendeley](https://www.mendeley.com/){target="_blank"}, [EndNote](https://endnote.com/){target="_blank"}, and [PaperPile](https://paperpile.com/){target="_blank"} (my favorite) help you organize your reading, make highlights, and take notes. Integrate your reference manager with your word processor so you can drop in-text citations, automatically generate a list of literature cited, and instantly change the citation format for different journals. The UC Berkeley Library has more information on reference managers [here](https://guides.lib.berkeley.edu/publichealth/citations){target="_blank"}.
+
+
+## Choose a target journal
+
+[what to consider - journal scope, audience, related recent publications]
+[metrics, what they mean, how to interpret, how much to weigh these in your decision]
+
+### Open access and article processing charges
+
+[Describe what open access is, different models]
+[APCs, many journals require this for open access; ]
+[potential resources for paying APCs] The UC Berkeley library provides...
+
+[explainer from UCB library: https://www.lib.berkeley.edu/research/scholarly-communication/open-access?section=about-open-access]

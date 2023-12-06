@@ -1,0 +1,142 @@
+---
+title: "Memo - Redlining and well sites in California"
+output: html_notebook
+date: "1/30/2021"
+---
+
+```{r setup, include=FALSE}
+source("../../code/0-setup/01-setup.R")
+```
+
+```{r data_input, include=FALSE, warning=FALSE}
+cal_counties <- st_read("../../data/raw/us_census/admin_shp/CA_counties.shp") %>%
+  st_transform(crs_nad83)
+holc <- 
+  st_read("../../data/raw/u_richmond/mapping_inequality/shapefile/holc_ad_data.shp") %>%
+  filter(state == "CA")
+wells_interim <- readRDS("../../data/interim/wells_interim.rds")
+```
+
+```{r data_tidying, include=FALSE}
+# makes buffers around wells
+wells_buffer_1km <- wells_interim %>%
+  filter(latitude > 1) %>%
+  filter(preprod_1999_to_2019 == 1 | prod_1999_to_2019 == 1) %>%
+  st_as_sf(coords = c("longitude", "latitude"), crs = crs_nad83) %>%
+  st_transform(crs_projected) %>%
+  st_buffer(dist = 1000) %>%  # distance in meters
+  st_union() %>%
+  st_transform(crs_nad83)
+wells_buffer_3km <- wells_interim %>%
+  filter(latitude > 1) %>%
+  filter(preprod_1999_to_2019 == 1 | prod_1999_to_2019 == 1) %>%
+  st_as_sf(coords = c("longitude", "latitude"), crs = crs_nad83) %>%
+  st_transform(crs_projected) %>%
+  st_buffer(dist = 3000) %>%  # distance in meters
+  st_union() %>%
+  st_transform(crs_nad83)
+
+# LA data
+holc_la <- holc %>% filter(city == "Los Angeles")
+la_county <- cal_counties %>%
+  filter(NAME == "Los Angeles")
+wells_buffer_1km_la <- wells_buffer_1km %>%
+  st_intersection(la_county)
+wells_buffer_3km_la <- wells_buffer_3km %>%
+  st_intersection(la_county)
+
+# Sacramento data
+holc_sac <- holc %>% filter(city == "Sacramento")
+sac_county <- cal_counties %>%
+  filter(NAME == "Sacramento")
+wells_buffer_1km_sac <- wells_buffer_1km %>%
+  st_intersection(sac_county)
+wells_buffer_3km_sac <- wells_buffer_3km %>%
+  st_intersection(sac_county)
+
+# Stockton (Stanislaus County) data
+holc_stock <- holc %>% filter(city == "Stockton")
+sanjoaq_county <- cal_counties %>%
+  filter(NAME == "San Joaquin")
+wells_buffer_1km_sanjoaq <- wells_buffer_1km %>%
+  st_intersection(sanjoaq_county)
+wells_buffer_3km_sanjoaq <- wells_buffer_3km %>%
+  st_intersection(sanjoaq_county)
+```
+
+
+## Objective
+
+The objective of this memo is to examine the HOLC "redlining" data, provided by the Mapping Inequality Project at the University of Richmond, and to determine whether there is sufficient spatial overlap between HOLC-graded neighborhoods and oil/gas wells in California cities to conduct an analysis.
+
+## Visualizing the data
+
+#### Plot. Statewide map
+
+Areas within 3 km of wells (preprod or prod, 1999-2019) are shaded gray and areas with HOLC data are shaded red; this doesn't indicate red-lining, just the locations of the HOLC data.
+
+```{r echo=FALSE, warning=FALSE}
+ggplot() +
+  geom_sf(data = st_geometry(st_union(cal_counties)), color = NA) +
+  geom_sf(data = wells_buffer_3km, color = NA, fill = "darkgray") +
+  geom_sf(data = holc, color = NA, fill = "red", alpha = 0.9) +
+  theme_void()
+```
+
+There appears to potentially be overlap with wells for the HOLC maps of Los Angeles, Sacramento, and Stockton. No apparent overlap for the other California cities with HOLC data (San Francisco, Oakland, San Jose, Fresno, and San Diego). Next I'll do a more detailed look at each city with potential overlap with wells.
+
+#### Plot. Los Angeles
+
+```{r echo=FALSE}
+ggplot() +
+  geom_sf(data = la_county, color = NA) +
+  geom_sf(data = holc_la, aes(fill = holc_grade), color = NA, alpha = 0.9) +
+  geom_sf(data = wells_buffer_1km_la, color = "black", fill = NA) +
+  geom_sf(data = wells_buffer_3km_la, color = "darkgray", fill = NA) +
+  scale_fill_brewer(palette = "RdYlGn", direction = -1) +
+  xlim(-118.5, -117.8) + ylim(33.7, 34.3) +
+  theme_bw() +
+  theme(axis.text.x = element_blank(),
+        axis.text.y = element_blank())
+```
+
+The black outline is a 1 km buffer around wells in preproduction or production, 1999-2019; dark gray is 3 km buffer. It looks we can conduct an analysis for Los Angeles. It appears that a small proportion of A-graded areas are within 1 km of wells, but many of the C-graded and D-graded (i.e., redlined) areas have wells within 1 km.
+
+
+#### Plot. Sacramento
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+ggplot() +
+  geom_sf(data = sac_county, color = NA) +
+  geom_sf(data = holc_sac, aes(fill = holc_grade), color = NA, alpha = 0.9) +
+  geom_sf(data = wells_buffer_1km_sac, color = "black", fill = NA) +
+  geom_sf(data = wells_buffer_3km_sac, color = "darkgray", fill = NA) +
+  scale_fill_brewer(palette = "RdYlGn", direction = -1) +
+  #xlim(-118.5, -117.8) + ylim(33.7, 34.3) +
+  theme_bw() +
+  theme(axis.text.x = element_blank(),
+        axis.text.y = element_blank())
+```
+
+No overlap between wells and HOLC-graded neighborhoods in Sacramento. Gray shaded area is Sacramento County; there are HOLC grades for the city only. Wells are in the southwest and northwest parts of the county.
+
+#### Plot. Stockton
+
+```{r echo=FALSE, warning=FALSE}
+ggplot() +
+  geom_sf(data = sanjoaq_county, color = NA) +
+  geom_sf(data = holc_stock, aes(fill = holc_grade), color = NA, alpha = 0.9) +
+  geom_sf(data = wells_buffer_1km_sanjoaq, color = "black", fill = NA) +
+  geom_sf(data = wells_buffer_3km_sanjoaq, color = "darkgray", fill = NA) +
+  scale_fill_brewer(palette = "RdYlGn", direction = -1) +
+  #xlim(-118.5, -117.8) + ylim(33.7, 34.3) +
+  theme_bw() +
+  theme(axis.text.x = element_blank(),
+        axis.text.y = element_blank())
+```
+
+Also no overlap between wells and HOLC-graded neighborhoods in Stockton. Gray shaded area is San Joaquin County; there are HOLC grades for the city only. Wells are located around the city but not in it.
+
+## Conclusion
+
+There's substantial overlap between modern wells and historic HOLC data for Los Angeles, but  not for other cities in California. It looks like we can pull off this analysis for Los Angeles, where much of the population exposed to oil/gas wells reside. I'll add the HOLC shapefile to the Box data folder. At some point we'll want to add labels for HOLC grade to the block groups.
