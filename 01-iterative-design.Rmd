@@ -48,7 +48,7 @@ I recommend reading [Luby and Southern (2023)](https://doi.org/10.1007/978-3-030
 
 A data memo is an RMarkdown (for R users) file that describes something about your data. In the design stage, this is mainly for getting to know your datasets in a way you can share with your colleagues. With RMarkdown, you can embed 'chunks' of R code into a text document that's easy to export as a PDF or HTML file, allowing you to analyze data and share summary statistics, plots, and tables without your colleagues needing to work with raw R code (and without you needing to generate a second document). For Python users, [Jupyter Notebook](https://jupyter.org/) has some similar capabilities.
 
-Here's an **[example data memo]()** from my study on ... [find + upload example]. IN this data memo, I was [expand...].
+Here's an **[example data memo](https://htmlpreview.github.io/?https://github.com/djxgonzalez/equis-lab-handbook/blob/main/files/2101-redlining_wells_los_angeles.nb.html){target="_blank"}**. When I wrote this data memo, I was exploring the idea of examining the associations between historical redlining and the siting of oil and gas wells in the California. As you can see in the memo, I was able to determine that there was enough overlap between wells and redlined neighborhoods in Los Angeles to justify further work on this research question, and in a form that I could easily send to my collaborators. This first preliminary analysis evolved into a [peer-reviewed publication](http://dx.doi.org/10.1038/s41370-022-00434-9){target="_blank"} in the *Journal of Exposure Science and Environmental Epidemiology*, where we found that in neighborhoods that were otherwise similar, redlined neighborhoods had significantly more wells.
 
 ## Ask for feedback
 
