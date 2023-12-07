@@ -147,3 +147,6 @@ article-preprints
 submitting-to-a-peer-reviewed-journal-journal
 how-peer-review-works
 author-order
+translating-your-manuscript
+social-media-outreach
+writing-policy-briefs
