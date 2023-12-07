@@ -1,10 +1,13 @@
 # Publication and Outreach {#publication}
 
+Congratulations! You're about to be a published author. Make sure you share the good news with your co-authorship team. 
+
+That said, your job's not over yet. Accepted papers don't get published immediately and a few steps remain.
+
 ## Getting from accepted to published
 
-Congratulations! Make sure you share the good news with your co-authorship team. That said, your job's not over yet. Accepted papers don't get published immediately.
+After a journal accepts your paper, you'll need to do a few more tasks to get to a publication-ready article:
 
-A few steps remain:
 - Review galley proofs [describe]. Respond to any questions from journal editorial staff. Verify all of the authors' names are spelled correctly and that everyone is matched with the right institutional affiliation. Finally, give your manuscript one last proofread—-once typos are published, they're permanent!
 - If you'd like to get news coverage for your article, ask the journal to set an embargo date. An embargo date is...
 
@@ -35,7 +38,7 @@ If journalists reach out to you requesting an interview, it's important to take 
 
 You can also to take a basic media training course. The [Science Communication Network](https://sciencecommunicationnetwork.org/){target="_blank"} provides resources for scientists and health professionals to improve public outreach skills and connects journalists with environmental health experts.
 
-If you're affiliated with a research institution, you might have access to a media and communications office, with professional staff who can help you in your science outreach. If you're affiliated with UC Berkeley, you can access a [Media Training for Academics](https://news.berkeley.edu/media-training){target="_blank"} course offered by the Office of Communications and Public Affairs and the Greater Good Science Center.
+If you're affiliated with a research institution, you might have access to a media and communications office, with professional staff who can help you in your science outreach. At UC Berkeley, students, staff, and faculty can access a [Media Training for Academics](https://news.berkeley.edu/media-training){target="_blank"} course offered by the Office of Communications and Public Affairs and the Greater Good Science Center.
 
 ## Reaching diverse audiences
 
