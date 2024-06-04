@@ -17,7 +17,7 @@ github-repo: rstudio/bookdown-demo
 
 ## Disclaimer {-#disclaimer}
 
-This Handbook is still a work-in-progress and some sections are incomplete. I aim to post a finalized draft in January 2024.
+This Handbook is still a work-in-progress and some sections are incomplete. I aim to post a finalized draft in summer or fall 2024.
 
 ## Purpose of this Handbook {-#introduction-purpose}
 

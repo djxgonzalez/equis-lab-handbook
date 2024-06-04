@@ -23,11 +23,13 @@ Once the core writing team signs off on the draft, it's time to get feedback fro
 ### Get other information from co-authors
 
 If you haven't already, this is a good time to ask for:
-
-- Grant numbers + who they're attached to
-- ORCIDs
-- Conflicts of interest
-- IRB protocol number(s)
+ 
+- Anyone who should be included in the acknowledgements. This could include, for example, researchers who helped with data prep but who didn't meet the other [ICMJE criteria](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html){target="_blank"}.
+- ORCIDs. An O
+- Grant numbers and who they're attached to.
+- IRB protocol number(s), particularly if you're working with colleagues at other institutions who received human subjects approval from those institutions.
+- Conflicts of interest, if any. You'll need to declare any conflicts of interest among the authorship team at the time of submissions. You can learn more about conflicts of interest [here](){target="_blank"}. [[get a link!]]
+- Suggested peer reviewers.
 
 ## Code review
 

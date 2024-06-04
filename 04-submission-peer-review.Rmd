@@ -13,9 +13,19 @@ Make sure the manuscript is properly formatted.
 Cover letters are an opportunity to describe to the journal's editors what your manuscript adds to the literature and a why it's good fit for their journal. [expand]
 
 Some journals require cover letters, some do not. 
+There are a wide variety of cover letters, so make sure to read the author guidelines closely to see what the journal asks for.
+Among journals that do require cover letters, sometimes you need to make specific declarations regarding, for example, authors' contributions and that the study isn't under consideration elsewhere. Sometimes they simply want you to describe why they should publish your paper.
+
+In terms of formatting, depends on how the journal wants you to send the cover letter. When journals asks me to upload cover letters, I'll typically use a letter head so it comes across as professionmal correspondence (which it is).
+Sometimes the cover letter is included as another text field in the form to submit a paper. In those cases, I drop the formality and simply respond to what they need.
+In all scenarios, I think it's good to be concise!
+
+[add examples-one formal, one informal]
+[ten simple rules for this? other resources?]
 
 ### Assemble your materials
 
+Cover letter (if required)
 Manuscript
 Tables and figures
 Supplementary information
