@@ -11,6 +11,29 @@ After a journal accepts your paper, you'll need to do a few more tasks to get to
 - Review galley proofs [describe]. Respond to any questions from journal editorial staff. Verify all of the authors' names are spelled correctly and that everyone is matched with the right institutional affiliation. Finally, give your manuscript one last proofread—-once typos are published, they're permanent!
 - If you'd like to get news coverage for your article, ask the journal to set an embargo date. An embargo date is...
 
+## Open access publishing
+
+### Open access and article processing charges
+
+[Describe what open access is, different models]
+Article processing charge (APCs) , many journals require this for open access; ]
+This process has also been evolving in recent years, as...
+It is a good sentiment to make science open accesss... Some popular, for-profit publishing firms, however, charge [high] fees... which can be a drain on already constrained scientific funding, particularly for researchers from under-resourced institutions.
+[potential resources for paying APCs] The UC Berkeley library provides...
+
+See this [explainer](https://www.lib.berkeley.edu/research/scholarly-communication/open-access?section=about-open-access){target="_blank"} from the UC Berkeley library for more.
+
+### Alternatives to paying for open access
+
+The costs of open access can be prohibitively expensive, and fortunately there are other ways for your paper to be freely available to the public:
+
+- **Preprint Servers** - Many journals will allow you to post your accepted manuscript to a preprint server. The accepted manuscript is the final draft of your submission to a journal after peer review has been done, but before it has been professionally formatted (so it's usually a Word document). If you've already uploaded an earlier draft of your manuscript to the preprint server, you can update it with the final accepted manuscript.
+- **Institutional Repositories ** - Many universities maintain their own repositories where you can upload your work and receive a permanent link, which is valuable for citing and sharing your work. Researchers affiliated with UC can upload accepted manuscripts to eScholarship.
+- **Personal Websites** - You're often allowed to upload a PDF of your manuscript to your own personal website without restriction.
+- **Open Access Journals** - Some journals, such as the [NIEHS](https://www.niehs.nih.gov/){target="_blank"}-funded *[Environmental Health Perspectives](https://ehp.niehs.nih.gov/){target="_blank"}*, are open access by default and don't charge an APC.
+
+Before you upload your manuscript, make sure to check the journal's policies to see what kind of sharing is allowed.
+
 ## Sharing your paper
 
 ### Get organized

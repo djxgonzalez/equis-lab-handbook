@@ -33,7 +33,9 @@ If you haven't already, this is a good time to ask for:
 
 ## Code review
 
-- what it is, how it might be helpful; as co-authorship criteria?
+Writing good code is a fundamental part of modern research
+
+In some groups, participating in code review can meet the criteria for being a co-author.
 
 ## Finalize your submission
 
