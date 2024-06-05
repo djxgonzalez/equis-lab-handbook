@@ -13,22 +13,27 @@ After a journal accepts your paper, you'll need to do a few more tasks to get to
 
 ## Open access publishing
 
-### Open access and article processing charges
+As scientists, our primary form of communication with other scientists is through publishing papers in peer reviewed journals. Each journal requires staff and resources to do their work, and this means that, in one form or another, they need funding. Historically, journals generated revenue by charging readers for access to the studies they publish, usually by offering subscriptions to libraries or research institutions. This creates a problem for people who aren't affiliated with a research institution. You'd have to pay for your own subscription to read primary research articles. As of June 2024, it costs $30/month to subscribe to the *Nature* family of journals, pricier than a monthly subscription to the New York Times. And if you want to read a paper from another journal, you'd need to pay for another subscription. The costs of accessing scientific knowledge can add up quickly. This is particularly irksome when you consider that much of the research is publicly funded. 
 
-[Describe what open access is, different models]
-Article processing charge (APCs) , many journals require this for open access; ]
-This process has also been evolving in recent years, as...
-It is a good sentiment to make science open accesss... Some popular, for-profit publishing firms, however, charge [high] fees... which can be a drain on already constrained scientific funding, particularly for researchers from under-resourced institutions.
-[potential resources for paying APCs] The UC Berkeley library provides...
+Over the past decade, there has been a growing movement to ensure that scientific articles are open access, which means that they are free to read for anyone, no subscription required. The policies and practices around open access publishing are rapidly evolving. Below, I discuss a few of the options I've used for my work. See this [explainer](https://www.lib.berkeley.edu/research/scholarly-communication/open-access?section=about-open-access){target="_blank"} from the UC Berkeley library for more.
 
-See this [explainer](https://www.lib.berkeley.edu/research/scholarly-communication/open-access?section=about-open-access){target="_blank"} from the UC Berkeley library for more.
+### Paying for open access
+
+Many journals now allow authors who want their work to be open access to pay an article processing charge (APC) to offset any lost revenue from subscribers. Journal APCs range widely. For example, the journal *[Environmental Epidemiology](https://journals.lww.com/environepidem/Pages/openaccess.aspx){target="_blank"}*, supported by the non-profit International Society for Epidemiology, charges an APC of $1,260 USD. On the other end of the spectrum, *[Nature Climate Change](https://www.nature.com/nclimate/submission-guidelines/publishing-options)* has an APC of \$12,290 USD.
+
+For-profit academic publishers such as Springer-Nature and Elsevier operate with high profit margins. *The Guardian* [reports](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science){target="_blank"} that Elsevier's scientific publishing activities generated \$926 million USD in profit in 2010 alone.
+
+If you're interested in publishing your article in open access, make sure to talk to your PI or adviser early, around the time you're choosing which journals to submit to. You should discuss what kind of funding, if any, is available to support open access and alternatives that don't require an APC. 
 
 ### Alternatives to paying for open access
 
-The costs of open access can be prohibitively expensive, and fortunately there are other ways for your paper to be freely available to the public:
+The costs of open access can be prohibitively expensive under the best circumstances, and some  popular for-profit publishing firms have exorbitant APCs. High APCs can be a drain on already constrained scientific funding, particularly for researchers from under-resourced institutions, and there are genuine ethical concerns to using research funding to support for-profit publishers. It's okay not to pay a journal for open access, though this will mean that readers accessing your article through the journal will encounter a paywall.
 
-- **Preprint Servers** - Many journals will allow you to post your accepted manuscript to a preprint server. The accepted manuscript is the final draft of your submission to a journal after peer review has been done, but before it has been professionally formatted (so it's usually a Word document). If you've already uploaded an earlier draft of your manuscript to the preprint server, you can update it with the final accepted manuscript.
-- **Institutional Repositories ** - Many universities maintain their own repositories where you can upload your work and receive a permanent link, which is valuable for citing and sharing your work. Researchers affiliated with UC can upload accepted manuscripts to eScholarship.
+Fortunately, if you  don't have funding or if you simply don't want to use your funding to pay an exporbitant fee, there are other ways to make study freely available to the public:
+
+- **Preprint Servers** - Many journals will allow you to post your accepted manuscript to a preprint server, such as [arXiv](https://arxiv.org/){target="_blank"}, [MedRxiv](https://www.medrxiv.org/){target="_blank"}, or [EarthArXiv](https://eartharxiv.org/){target="_blank"}. The accepted manuscript is the final draft of your submission to a journal after peer review has been done, but before it has been professionally formatted (so it's usually a Word document). If you've already uploaded an earlier draft of your manuscript to a preprint server, you can update it with the final accepted manuscript.
+- **Institutional Repositories** - Many universities maintain their own repositories where you can upload your work and receive a permanent link, which is valuable for citing and sharing your work. Researchers affiliated with the University of Californi can upload accepted manuscripts to [eScholarship](https://escholarship.org/){target="_blank"}. Depending on the journal's policies, you may be required to wait a few months (an "embargo period") before you upload your manuscript.
+- **PubMed Central** - If one of the co-authors on the study was supported by a grant from a federal agency or certain foundations, you may be required to post an accepted manuscript on [PubMed Central (PMC)](https://www.ncbi.nlm.nih.gov/pmc/about/public-access/){target="_blank"}. According to NIH, "PMC is the full-text repository for papers that fall under the public and open access policies of a number of research funding organizations that support biomedical and life science research."
 - **Personal Websites** - You're often allowed to upload a PDF of your manuscript to your own personal website without restriction.
 - **Open Access Journals** - Some journals, such as the [NIEHS](https://www.niehs.nih.gov/){target="_blank"}-funded *[Environmental Health Perspectives](https://ehp.niehs.nih.gov/){target="_blank"}*, are open access by default and don't charge an APC.
 
@@ -39,6 +44,7 @@ Before you upload your manuscript, make sure to check the journal's policies to 
 ### Get organized
 
 Things to assemble:
+
 - Photos or other visuals, communications staff and journalists often ask for this. You can be a published author *and* photographer!
 - Key points that you'd like to make sure you covney to all of the media and communications professionals you work with. If your paper is newsworthy, you're probably going to get similar questions from multiple people. Make sure to provide a consistent message.
 
