@@ -21,7 +21,7 @@ Over the past decade, there has been a growing movement to ensure that scientifi
 
 Many journals now allow authors who want their work to be open access to pay an article processing charge (APC) to offset any lost revenue from subscribers. Journal APCs range widely. For example, the journal *[Environmental Epidemiology](https://journals.lww.com/environepidem/Pages/openaccess.aspx){target="_blank"}*, supported by the non-profit International Society for Epidemiology, charges an APC of $1,260 USD. On the other end of the spectrum, *[Nature Climate Change](https://www.nature.com/nclimate/submission-guidelines/publishing-options)* has an APC of \$12,290 USD.
 
-For-profit academic publishers such as Springer-Nature and Elsevier operate with high profit margins. *The Guardian* [reports](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science){target="_blank"} that Elsevier's scientific publishing activities generated \$926 million USD in profit in 2010 alone.
+For-profit academic publishers such as Springer-Nature and Elsevier operate with high profit margins. For example, *The Guardian* [reports](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science){target="_blank"} that Elsevier's scientific publishing activities generated \$926 million USD in profit in 2010 alone.
 
 If you're interested in publishing your article in open access, make sure to talk to your PI or adviser early, around the time you're choosing which journals to submit to. You should discuss what kind of funding, if any, is available to support open access and alternatives that don't require an APC. 
 

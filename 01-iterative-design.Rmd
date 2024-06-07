@@ -1,6 +1,8 @@
 # Iterative Study Design {#iterative-design}
 
-At this early stage of the project, the goal is to put together a solid research plan and get your whole team on the same page. This is an iterative process, meaning that you'll start organizing your thinking on study aims and design and do some initial data exploration. Then you'll check-in with your mentors and collaborators and revise your study design and methods, and check back in with your team to see if further changes are needed. While you do this work, you can plan ahead and start assembling the information you'll need to eventually write a manuscript for peer review.
+At this early stage of the project, the goal is to put together a solid research plan and get your whole team on the same page. This is an iterative process, meaning that you'll start organizing your thinking on study aims and design and do some initial data exploration. Then you'll check-in with your mentors and collaborators and revise your study design and methods, and check back in with your team to see if further changes are needed.
+
+While you do this work, you can start organizing your data and code, and also plan ahead and assemble the information you'll need when it comes time to submit for peer review.
 
 ## Keep yourself organized
 

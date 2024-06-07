@@ -4,9 +4,9 @@ You have a sound study design and consensus among your team about the the study 
 
 ## Set up your data science project
 
-You have a lot of decisions to make as a researcher. Rather than the quotidian logistics of managing a data science project--what name to give a file, where to export your data--I'd like you to focus on the intricacies of study design and data analysis. In that spirit, here I describe my data science project management system.
+You have a lot of decisions to make as a researcher. Rather than the day-to-day logistics of managing a data science project—what name to give a file, where to export your data—I'd like you to focus on the intricacies of study design and data analysis. In that spirit, here I describe my data science project management system.
 
-If you or your lab group already have a system for setting up data projects—-great. If you'd like to take this system as a starting point to iterate on—-fantastic, I encourage it!
+If you or your lab group already have a system for setting up data projects—great. If you'd like to take this system as a starting point to iterate on—fantastic, I encourage it!
 
 ### Naming projects
 
@@ -18,7 +18,26 @@ I like to keep file names short and simple. If you follow the above strategy, th
 
 ### Organizing your directory 
 
-[Figure. Example Project Directory]
+Template I use... [expand]
+
+```
+setting-exposure-outcome        #
+├── code                        # 
+│   ├── 0-setup                 # 
+│   ├── 1-data_tidying          # 
+│   ├── 2-exposure_assessment   # 
+│   ├── 3-analyses              # 
+│   └── 4-communication         # 
+├── data                        # 
+│   ├── raw                     #
+│   ├── interim                 # 
+│   └── processed               #  
+├── output                      # 
+│   ├── figures                 #
+│   ├── memos                   # 
+│   ├── results                 # 
+└── └── tables                  #
+```
 
 You can download a full template for my research project structure [here](), including templates for the Concept Note and Project Log. [*Note: These resources have not been posted yet*]
 
@@ -70,6 +89,15 @@ You're probably using one of these already. References managers like [Zotero](ht
 
 ## Choose a target journal
 
-[what to consider - journal scope, audience, related recent publications]
+There are several factors to consider here, and it's can be easiest to make this decision in conversation with an experienced mentor or co-author. It's a good idea to have a list of multiple journals you'd like to submit to and an agreed-upon order, so that when you get a rejection, you can move on to the next one.
+
+Here are some of the questions that come up while you're thinking about where to submit your work:
+
+- *Does your manuscript fit the scope of the journal?*  [expand]
+- *Is the disciplinary audience the right one for you and your work?* [expand]
+- *Have they published similar work in the past?* It's a good sign if they journal has published simlar work in the past, showing that your study is in-scope. If there's a recent publication that is highly similar to yours, however, editors may be less receptive.
+- *What kind of formatting do they require?* [expand]
+
+Another consideration is the journal's impact. Opinions vary widely as to how much  you should pay to impact, but it is something.
 [metrics, what they mean, how to interpret, how much to weigh these in your decision]
 
