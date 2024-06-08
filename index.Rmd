@@ -1,6 +1,6 @@
 --- 
-title: "Managing Your Research Project: Applied Data Science and Writing Skills for Epidemiology and Environmental Justice (and Beyond)"
-subtitle: "The EQUIS Lab Handbook"
+title: "Managing Your Research Project: The EQUIS Lab Handbook"
+subtitle: "Applied Data Science and Writing Skills for Epidemiology and Environmental Justice (and Beyond)"
 author: "David J.X. González, PhD"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
