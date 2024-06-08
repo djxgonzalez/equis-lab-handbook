@@ -21,22 +21,22 @@ I like to keep file names short and simple. If you follow the above strategy, th
 Template I use... [expand]
 
 ```
-setting-exposure-outcome        #
-├── code                        # 
-│   ├── 0-setup                 # 
-│   ├── 1-data_tidying          # 
-│   ├── 2-exposure_assessment   # 
-│   ├── 3-analyses              # 
-│   └── 4-communication         # 
+setting-exposure-outcome        # root directory using naming convention
+├── code                        # scripts to...
+│   ├── 0-setup                 # ...attach packages and define global variables
+│   ├── 1-data_tidying          # ...prepare and assemble datasets for analyses
+│   ├── 2-exposure_assessment   # ...assess exposure to environmental hazards
+│   ├── 3-analyses              # ...generate descriptive stats, fit models, etc
+│   └── 4-communication         # ...generate figures, tables, other output
 ├── data                        # 
-│   ├── raw                     #
-│   ├── interim                 # 
-│   └── processed               #  
+│   ├── raw                     # untouched datasets with original file names
+│   ├── interim                 # intermediate datasets not ready for analysis
+│   └── processed               # finalized datasets ready for analysis
 ├── output                      # 
-│   ├── figures                 #
-│   ├── memos                   # 
-│   ├── results                 # 
-└── └── tables                  #
+│   ├── figures                 # save figure components here and assemble them
+│   ├── memos                   # data memos - data exploration, prelim analyses
+│   ├── results                 # save output from analyses here
+└── └── tables                  # save compiled tables here
 ```
 
 You can download a full template for my research project structure [here](), including templates for the Concept Note and Project Log. [*Note: These resources have not been posted yet*]
