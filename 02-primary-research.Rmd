@@ -18,7 +18,7 @@ I like to keep file names short and simple. If you follow the above strategy, th
 
 ### Organizing your directory 
 
-Template I use... [expand]
+For most data science projects in environmental health, I use this file structure to keep my code, data, and output organized:
 
 ```
 setting-exposure-outcome        # root directory using naming convention
@@ -39,20 +39,20 @@ setting-exposure-outcome        # root directory using naming convention
 └── └── tables                  # save compiled tables here
 ```
 
-You can download a full template for my research project structure [here](), including templates for the Concept Note and Project Log. [*Note: These resources have not been posted yet*]
+Download a [full template](https://github.com/djxgonzalez/equis-lab-handbook/blob/main/files/project_template.zip){target="_blank"} for my research project file structure, including templates for the Concept Note and Project Log.
 
 ## Manage your code
 
-Writing clear and well-organized code is a fundamental data science skill. It's likely that the way we write scientific code is going to change profoundly in the coming years, as tools like ChatGPT evolve and replace some of the work typically done by humans. What won't change, however, is the need to write coherent and reproducible code that others can interpret and modify, and that you yourself can return to as you carry out your research. In this section, I offer suggestions for how to get organized at the outset of your project.
+Writing clear and well-organized code is a fundamental data science skill. It's likely that the way we write scientific code is going to change profoundly in the coming years, as tools like ChatGPT evolve and replace some of the work typically done by humans. What won't change is the need to generate coherent code that you can return to as you work iteratively on  your analyses. Your code also needs to be interpretable by collaborators and, if you post it to a public repository (which many journals now require), others in the field. Here are some suggestions for how to get organized at the outset of your project.
 
 ### Tool: Style Guide
 
-A style guide is a system for writing consistent and readable code, including syntax, layout, and naming conventions for functions and objects. Again, the goal is to reduce the number of logistical decisions you need to make so you can focus on your research. You don't need to invent your own system, but you should feel free to iterate on the existing ones. I use [The tidyverse style guide](https://style.tidyverse.org/index.html){target="_blank"} to style my R code, and there are other options out there, including the [Google R Style Guide](https://google.github.io/styleguide/Rguide.html){target="_blank"}. Other languages have their own style guides, such as the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/){target="_blank"}.
+A style guide describes a system for writing consistent and readable code, including syntax, layout, and naming conventions for functions and objects. Again, the goal is to reduce the number of logistical decisions you need to make so you can focus on your research. You don't need to invent your own system, but you should feel free to iterate on the existing ones. I use [The tidyverse style guide](https://style.tidyverse.org/index.html){target="_blank"} to style my R code, and there are other options out there, including the [Google R Style Guide](https://google.github.io/styleguide/Rguide.html){target="_blank"}. Other languages have their own style guides, such as the [PEP 8 Style Guide for Python](https://peps.python.org/pep-0008/){target="_blank"}.
 
 ### Tool: Version control with Git and GitHub
 
 [Introduce version control] 
-You already do version control with Word documents, with drafts that you send to others for their input, which turn into new drafts that you do more editing and work on. This can get more complicated with codebases...
+You already do version control with Word documents. You write drafts that you send to others, they make edits and add comments to a new version, and then you respond to those comments in another new version. When writing code, the same kind of process process can get more complicated with codebases.
 
 This is helpful for several reasons: 
 - Version control, so you can go back to older versions of your code if you need to.

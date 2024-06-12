@@ -23,11 +23,11 @@ This Handbook is still a work-in-progress and some sections are incomplete. I ai
 
 Learning to do environmental health research is challenging enough. You need to frame a good research question, design a sound study, carry out the work, and communicate your findings, often in collaboration with colleagues near and far. To be successful, it helps to have a consistent and systematic approach to managing the various inputs and outputs across multiple projects. Of course, it takes time to develop your approach, and since the data science tools we use are constantly evolving, it helps to be adaptable.
 
-It's okay if you feel daunted. But you don't have to figure all of this out on your own.
+It's okay if you feel daunted. But you don't have to figure all of this by yourself.
 
-That's why I wrote this Handbook. It's intended as a start-up guide for new (and established!) researchers in the [EQUIS Lab](https://equislab.publichealth.berkeley.edu/){target="_blank"} conducting applied data science work for environmental epidemiology and environmental justice, based on an approach I've honed through my own training and work in the environmental health sciences. I hope it will be helpful for applied data scientists in other settings, too.
+That's why I wrote this Handbook. It's intended as a start-up guide for new (and established!) researchers in the [EQUIS Lab](https://equislab.publichealth.berkeley.edu/){target="_blank"} conducting applied data science work for environmental epidemiology and environmental justice, based on an approach I've honed through my own work. I hope it will be helpful for applied data scientists in other settings, too.
 
-In this Handbook, I provide a systematic approach to dealing with common issues and decision points so  you can focus on your research. I walk through the cycle of an applied data science project, from conception to publication, using examples from my own published work. 
+In this Handbook, I provide a systematic approach to dealing with common issues and decision points so you can focus on your research. I walk through the cycle of an applied data science project, from conception to publication, using examples from my own published studies 
 
 There is not one right way to do this work. Here, I simply offer an approach that has worked for me. This is a work-in-progress and I welcome constructive feedback on ways to improve these recommendations and to make it accessible for new researchers. Also, please keep in mind that this Handbook is subject to change as new data science tools emerge.
 
@@ -49,7 +49,7 @@ Throughout the Handbook, I share examples from my own in-process and published w
 
 ## Acknowledgements {-#introduction-inspiration}
 
-As with all scientific efforts, in writing this Handbook I'm standing on the shoulders of some talented colleagues. Rather than a solo invention, the strategies discussed here are a combinations of others' suggestions and my own iterative process of using data science in my research. Particularly influential for me were Hadley Wickam's *[R for Data Science](https://r4ds.hadley.nz/)* and Steve Luby and Dorothy Southern's *[The Pathway to Publishing: A Guide to Quantitative Writing in the Health Sciences](https://doi.org/10.1007/978-3-030-98175-4){target="_blank"}*. I've also learned from the communities on Stack Overflow and other web forums. I'd like to thank members of the [SHE Lab](https://nature.berkeley.edu/morellofroschlab/){target="_blank"} and [EQUIS Lab](https://equislab.publichealth.berkeley.edu/){target="_blank"} at UC Berkeley for thoughtful feedback and suggestions for improving this Handbook.
+Rather than a solo invention, the strategies discussed here are a combinations of others' suggestions and my own iterative process of using data science in my research. Particularly influential for me were Hadley Wickam's *[R for Data Science](https://r4ds.hadley.nz/)* and Steve Luby and Dorothy Southern's *[The Pathway to Publishing: A Guide to Quantitative Writing in the Health Sciences](https://doi.org/10.1007/978-3-030-98175-4){target="_blank"}*. I've also learned from the communities on Stack Overflow and other web forums. I'd like to thank members of the [SHE Lab](https://nature.berkeley.edu/morellofroschlab/){target="_blank"} and [EQUIS Lab](https://equislab.publichealth.berkeley.edu/){target="_blank"} at UC Berkeley for thoughtful feedback and suggestions for improving this Handbook.
 
 ## About the author {-#introduction-author}
 
