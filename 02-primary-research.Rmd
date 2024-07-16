@@ -54,7 +54,8 @@ A style guide describes a system for writing consistent and readable code, inclu
 [Introduce version control] 
 You already do version control with Word documents. You write drafts that you send to others, they make edits and add comments to a new version, and then you respond to those comments in another new version. When writing code, the same kind of process process can get more complicated with codebases.
 
-This is helpful for several reasons: 
+This is helpful for several reasons:
+
 - Version control, so you can go back to older versions of your code if you need to.
 - Code sharing with your team, so that a collaborator on another machine can read and edit your code.
 - Open data science, so you can publish and share your code with the world to accompany your eventual paper.

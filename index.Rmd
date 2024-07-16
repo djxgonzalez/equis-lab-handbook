@@ -21,15 +21,15 @@ This Handbook is still a work-in-progress and some sections are incomplete. I ai
 
 ## Purpose of this Handbook {-#introduction-purpose}
 
-Learning to do environmental health research is challenging enough. You need to frame a good research question, design a sound study, carry out the work, and communicate your findings, often in collaboration with colleagues near and far. To be successful, it helps to have a consistent and systematic approach to managing the various inputs and outputs across multiple projects. Of course, it takes time to develop your approach, and since the data science tools we use are constantly evolving, it helps to be adaptable.
+Learning to do environmental health research is challenging enough. You need to frame a good research question, design a sound study, carry out the work, and communicate your findings, often in collaboration with colleagues near and far. To be successful, it helps to have a consistent and systematic approach to managing the various inputs and outputs across multiple projects. And of course, it takes time to find an approach that works for you.
 
 It's okay if you feel daunted. But you don't have to figure all of this by yourself.
 
-That's why I wrote this Handbook. It's intended as a start-up guide for new (and established!) researchers in the [EQUIS Lab](https://equislab.publichealth.berkeley.edu/){target="_blank"} conducting applied data science work for environmental epidemiology and environmental justice, based on an approach I've honed through my own work. I hope it will be helpful for applied data scientists in other settings, too.
+That's why I wrote this Handbook. It's intended as a start-up guide for new (and established!) researchers in the [EQUIS Lab](https://equislab.publichealth.berkeley.edu/){target="_blank"} conducting applied data science work for environmental epidemiology and environmental justice, based on an methods I've honed through my own work. I discuss how to deal with common issues and decision points so you can focus on your research. I walk through the cycle of an applied data science project, from conception to publication, using examples from my own published studies. I hope it will be helpful for applied data scientists in other settings, too.
 
-In this Handbook, I provide a systematic approach to dealing with common issues and decision points so you can focus on your research. I walk through the cycle of an applied data science project, from conception to publication, using examples from my own published studies 
+There is not one right way to do this work. Here, I simply describe what's worked for me.
 
-There is not one right way to do this work. Here, I simply offer an approach that has worked for me. This is a work-in-progress and I welcome constructive feedback on ways to improve these recommendations and to make it accessible for new researchers. Also, please keep in mind that this Handbook is subject to change as new data science tools emerge.
+This is a work-in-progress and I welcome constructive feedback on ways to improve these recommendations and to make it accessible for new researchers. Also, please keep in mind that this Handbook is subject to change as new data science tools emerge.
 
 ## How to use this Handbook {-#introduction-howtouse}
 
@@ -43,9 +43,7 @@ I've organized the handbook to follow the workflow of a typical data science pro
 
 Use the links on the left to jump to the section of the Handbook describing each stage, the tools I recommend using, tips on staying organized, and processes and norms you should keep in mind.
 
-I recommend reading through the full Handbook before you get started with your project, so you can get a sense of the whole picture and what you can be planning ahead for. Then, during the course your research, you can refer to the specific stage that you're at.
-
-Throughout the Handbook, I share examples from my own in-process and published work.
+I recommend reading through the full Handbook before you get started with your project, so you can get a sense of the whole picture and what you can be planning ahead for. Then, while you work, you can refer back to specific sections.
 
 ## Acknowledgements {-#introduction-inspiration}
 

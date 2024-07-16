@@ -19,7 +19,7 @@ Over the past decade, there has been a growing movement to ensure that scientifi
 
 ### Paying for open access
 
-Many journals now allow authors who want their work to be open access to pay an article processing charge (APC) to offset any lost revenue from subscribers. Journal APCs range widely. For example, the journal *[Environmental Epidemiology](https://journals.lww.com/environepidem/Pages/openaccess.aspx){target="_blank"}*, supported by the non-profit International Society for Epidemiology, charges an APC of $1,260 USD. On the other end of the spectrum, *[Nature Climate Change](https://www.nature.com/nclimate/submission-guidelines/publishing-options)* has an APC of \$12,290 USD.
+Many journals now allow authors who want their work to be open access to pay an article processing charge (APC) to offset any lost revenue from subscribers. Journal APCs range widely. For example, the journal *[Environmental Epidemiology](https://journals.lww.com/environepidem/Pages/openaccess.aspx){target="_blank"}*, supported by the non-profit International Society for Environmental Epidemiology, has an APC of $1,260 USD. On the other end of the spectrum, *[Nature Climate Change](https://www.nature.com/nclimate/submission-guidelines/publishing-options)* has an APC of \$12,290 USD.
 
 For-profit academic publishers such as Springer-Nature and Elsevier operate with high profit margins. For example, *The Guardian* [reports](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science){target="_blank"} that Elsevier's scientific publishing activities generated \$926 million USD in profit in 2010 alone.
 
@@ -29,7 +29,7 @@ If you're interested in publishing your article in open access, make sure to tal
 
 The costs of open access can be prohibitively expensive under the best circumstances, and some  popular for-profit publishing firms have exorbitant APCs. High APCs can be a drain on already constrained scientific funding, particularly for researchers from under-resourced institutions, and there are genuine ethical concerns to using research funding to support for-profit publishers. It's okay not to pay a journal for open access, though this will mean that readers accessing your article through the journal will encounter a paywall.
 
-Fortunately, if you  don't have funding or if you simply don't want to use your funding to pay an exporbitant fee, there are other ways to make study freely available to the public:
+Fortunately, if you  don't have funding or if you simply don't want to use your funding to pay an high fee, there are other ways to make our study freely available to the public:
 
 - **Preprint Servers** - Many journals will allow you to post your accepted manuscript to a preprint server, such as [arXiv](https://arxiv.org/){target="_blank"}, [MedRxiv](https://www.medrxiv.org/){target="_blank"}, or [EarthArXiv](https://eartharxiv.org/){target="_blank"}. The accepted manuscript is the final draft of your submission to a journal after peer review has been done, but before it has been professionally formatted (so it's usually a Word document). If you've already uploaded an earlier draft of your manuscript to a preprint server, you can update it with the final accepted manuscript.
 - **Institutional Repositories** - Many universities maintain their own repositories where you can upload your work and receive a permanent link, which is valuable for citing and sharing your work. Researchers affiliated with the University of Californi can upload accepted manuscripts to [eScholarship](https://escholarship.org/){target="_blank"}. Depending on the journal's policies, you may be required to wait a few months (an "embargo period") before you upload your manuscript.
@@ -56,6 +56,7 @@ Coordinate with journal outreach staff. Many journals promote their new publicat
 Your institution may have an office (or several offices) devoted to sharing new research. For example, UC Berkeley Public Health News... 
 
 Communications staff can:
+
 - Write a press release
 - Help you prepare for media interviews
 
