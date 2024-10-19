@@ -9,7 +9,6 @@ That said, your job's not over yet. Accepted papers don't get published immediat
 After a journal accepts your paper, you'll need to do a few more tasks to get to a publication-ready article:
 
 - Review galley proofs [describe]. Respond to any questions from journal editorial staff. Verify all of the authors' names are spelled correctly and that everyone is matched with the right institutional affiliation. Finally, give your manuscript one last proofread—-once typos are published, they're permanent!
-- If you'd like to get news coverage for your article, ask the journal to set an embargo date. An embargo date is...
 
 ## Open access publishing
 
@@ -43,24 +42,22 @@ Before you upload your manuscript, make sure to check the journal's policies to 
 
 ### Get organized
 
+If you'd like to seek news coverage for your article, after your paper has been published you ask the journal to set an embargo date. 
+
+An embargo date is a set date when the journal releases the article. Once you have the date, you can share it with your institution's press office if they're issuing a press release. You can also share the embargo date and the embargoed accepted manuscript directly with journalists who may be interested in covering the study. The idea is that the scientific paper, press release, and news articles will all be released at the same time to help the study make a bigger splash.
+
+
 Things to assemble:
 
-- Photos or other visuals, communications staff and journalists often ask for this. You can be a published author *and* photographer!
-- Key points that you'd like to make sure you covney to all of the media and communications professionals you work with. If your paper is newsworthy, you're probably going to get similar questions from multiple people. Make sure to provide a consistent message.
+- Photos or other visual aids. Communications staff and journalists often ask for this. You can be a published author *and* photographer!
+- Key points that you'd like to make sure you convey to all of the media and communications professionals you work with. If your paper is newsworthy, you're probably going to get similar questions from multiple people. Make sure to provide a consistent message.
 
-Coordinate with journal outreach staff. Many journals promote their new publications via their websites and social media channels. You can share your handles and highlights
+Coordinate with journal outreach staff. Many journals promote their new publications on social media, so you should share your handles and any key points you'd like them to highlight.
 
 
 ### Working with communications staff at your institution
 
-Your institution may have an office (or several offices) devoted to sharing new research. For example, UC Berkeley Public Health News... 
-
-Communications staff can:
-
-- Write a press release
-- Help you prepare for media interviews
-
-Check with the communications staff at your university for specifics.
+Your institution may have an office devoted to sharing new research with the public. Communications staff can share your work on the institution's social media, issue press releases that go out to news outlets, and help you prepare for media interviews. Check with the communications staff at your university for specifics about how you can share your newly accepted articles with them and the kind of support they can offer.
 
 ### Working with journalists
 
@@ -72,14 +69,24 @@ If you're affiliated with a research institution, you might have access to a med
 
 ## Reaching diverse audiences
 
-### Translating your manuscript
+It takes extra effort to reach diverse audiences with your work. Below I share some strategies for practicing linguistic inclusion.
 
-Linguistic diversity [refer to Ornelas Van Horne et al. 2023]
+*Note: This section is incomplete.*
 
-### Social media outreach
+### Linguistic inclusion
 
-Community members - Social media, explainers on sites like The Conversation, op-eds
+Colleagues and I discussed strategies for practicing linguistic inclusion in a [2023 paper](https://doi.org/10.1289/EHP12306){target="_blank"} published in *Environmental Health Perspectives*.
 
-### Writing policy briefs
+### Public writing
+
+You can pitch public-facing articles on your scientific work to outlets including *The Conversation* and *Environmental Health News*.
+
+If you have a timely policy-relevant study, you can also consider pitching an op-ed to newspapers. 
+
+### Policy briefs
 
 Policy stakeholders
+
+### Social media
+
+Not my forté, but social media is an important way to reach some audiences. That said, social media is not the be-all end-all. Be mindful of who you do and do not reach through social media and the tradeoff between social media engagement and doing other forms of public outreach.
